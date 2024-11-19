@@ -4,37 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mindfulness Cards</title>
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Cargar Bootstrap desde CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .card {
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: scale(1.05);
-    }
-    .card-body {
-      text-align: center;
-    }
-    .card-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-    .card-text {
-      font-size: 1.2rem;
-      font-style: italic;
-    }
-  </style>
 </head>
 <body>
-
   <!-- Header -->
-  <header class="bg-dark text-white text-center py-5">
-    <h1>Tarjetas de Mindfulness</h1>
-    <p>Encuentra inspiración y calma con nuestras tarjetas.</p>
+  <header class="header">
+    <h1 class="header-title">Tarjetas de Mindfulness</h1>
+    <p class="header-subtitle">Encuentra inspiración y calma con nuestras tarjetas.</p>
   </header>
 
   <!-- Main Section: Cards -->
-  <section class="container mt-5">
+  <section class="cards-container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <!-- Card 1 -->
       <div class="col">
@@ -75,10 +58,12 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3 mt-5">
-    <p>© 2024 Mindfulness Cards. Todos los derechos reservados.</p>
+  <footer class="footer">
+    <p>&copy; 2024 Mindfulness Cards. Todos los derechos reservados.</p>
   </footer>
 
+  <!-- Cargar Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
